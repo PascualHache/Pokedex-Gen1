@@ -1,0 +1,42 @@
+.cardComplete {
+    max-width: 300px;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardLink {
+    flex: 0 0 33.333333%;
+}
+
+.cardTitle {
+    display: block;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+.cardImg {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.cardComplete:hover {
+    background-color: rgb(201, 192, 192);
+}
+
+.cardLink {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+}

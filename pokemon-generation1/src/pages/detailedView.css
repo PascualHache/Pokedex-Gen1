@@ -1,0 +1,35 @@
+.cardBox {
+    background-color: aqua;
+    padding: 15px;
+    background-color: white;
+    /* border-radius: 5px; */
+    border: 1px solid black;
+    width: 300px;
+    padding: 0 2em 0 2em;
+}
+
+.cardText {
+    text-align: left;
+    font-weight: 600;
+    padding: 0.8em 0 0.8em 0;
+}
+
+.cardText li {
+    text-transform: capitalize;
+}
+
+.cardImgDetailed {
+    padding: 0 1em 1.5em 1.5em;
+    width: 7em;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.crossClosing {
+    text-align: right;
+    font-weight: 600;
+    padding-top: 1em;
+}

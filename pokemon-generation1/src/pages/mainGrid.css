@@ -1,0 +1,19 @@
+.pokemonsGrid {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-grow: row wrap; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    justify-content: center;
+}
+
+.logoImg {
+    width: 300px;
+    height: auto;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
