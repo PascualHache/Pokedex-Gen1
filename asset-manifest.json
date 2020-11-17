@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Pokedex-Gen1/static/css/main.ecb0278e.chunk.css",
+    "main.js": "/Pokedex-Gen1/static/js/main.d0de673e.chunk.js",
+    "main.js.map": "/Pokedex-Gen1/static/js/main.d0de673e.chunk.js.map",
+    "runtime-main.js": "/Pokedex-Gen1/static/js/runtime-main.7bccb6f5.js",
+    "runtime-main.js.map": "/Pokedex-Gen1/static/js/runtime-main.7bccb6f5.js.map",
+    "static/js/2.dade2a8c.chunk.js": "/Pokedex-Gen1/static/js/2.dade2a8c.chunk.js",
+    "static/js/2.dade2a8c.chunk.js.map": "/Pokedex-Gen1/static/js/2.dade2a8c.chunk.js.map",
+    "static/js/3.1b5aeab6.chunk.js": "/Pokedex-Gen1/static/js/3.1b5aeab6.chunk.js",
+    "static/js/3.1b5aeab6.chunk.js.map": "/Pokedex-Gen1/static/js/3.1b5aeab6.chunk.js.map",
+    "index.html": "/Pokedex-Gen1/index.html",
+    "static/css/main.ecb0278e.chunk.css.map": "/Pokedex-Gen1/static/css/main.ecb0278e.chunk.css.map",
+    "static/js/2.dade2a8c.chunk.js.LICENSE.txt": "/Pokedex-Gen1/static/js/2.dade2a8c.chunk.js.LICENSE.txt",
+    "static/media/pokemon-logo.dd030aa8.png": "/Pokedex-Gen1/static/media/pokemon-logo.dd030aa8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bccb6f5.js",
+    "static/js/2.dade2a8c.chunk.js",
+    "static/css/main.ecb0278e.chunk.css",
+    "static/js/main.d0de673e.chunk.js"
+  ]
+}
