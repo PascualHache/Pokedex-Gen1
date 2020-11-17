@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+﻿# Pokemon test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Hello. This is the Immfly frontend code test. You have to build a web application listing the **first pokemon generation**.
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features to implement
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Build and style the main list
 
-### `yarn test`
+You have to implement the main list like in this image:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img align="center" src="https://imgur.com/HNu1wmq.png" style="border: 1px solid black" />
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Notice that:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*  The url is **/pokemon**.
 
-### `yarn eject`
+*  When user hovers a pokemon, its background becomes gray.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Pokemon detail page
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Add the possibility to click on a pokemon and go to the detail page, like in this image:
 
-## Learn More
+<img align="center" src="https://imgur.com/1Mbh6mK.png" style="border: 1px solid black" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Notice that the pokemon detail url is different. It is ``/pokemon/:name``. In the **charizard** example is ``/pokemon/charizard``.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Images
 
-### Making a Progressive Web App
+The images url is ``https://img.pokemondb.net/sprites/black-white/anim/normal/{name}.gif``
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+For example:
+* 
+**Charizard** <img align="center" src="https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif"/>
+* **Bulbasaur** <img align="center" src="https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" />
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+### Api Endpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The api base url is ``https://pokeapi.co/api/v2``.
+
+* **List**: ``/pokemon`` (maybe you have to add the limit parameter on the request to fetch the first generation in only one request).
+
+* **Detail**: ``/pokemon/:name``.
+
+
+
+For example:
+
+* **Charizard**: ``https://pokeapi.co/api/v2/pokemon/charizard`` 
+
+* **Bulbasaur**: ``https://pokeapi.co/api/v2/pokemon/bulbasaur`` 
+
+
+
+## Demo
+
+You can watch/download the video showing how the app finally should work: <a href="https://mega.nz/file/2JNVlIzb#kmmubCQEUQV0RgZ9dExTC64P_9eDNBPE8zgNNS-b0do" target="_blank">demo</a>.
+
+
+
+## ðŸ§? We want to see ðŸ§?
+- React knowledge
+
+- Project architecture
+
+- Css skills
+
+- ECMAScript6 skills
+
+- Clean code
+
+
+
+## âœ… You should âœ…
+
+- Use the **axios** package for http requests.
+
+- **Prevent unknown urls** while redirecting to the list page.
+
+
+
+## ðŸš« You should not ðŸš«
+
+- Use Typescript.
+
+- Use bootstrap.
+
+
+
+## ðŸŒŸ Bonus ðŸŒŸ
+
+- Add a filter to search pookemon by name
+
+- Don't use the **create-react-app** npm package to create the project.
+
+- Use **hooks**.
+- Add **tests**.
+
+- Show a **loading indicator** while an api request is in progress.
+
+- Use a **linter**.
+- Custom **webpack** implementation.
+
+- **Dockerize**
+
+After test completion, use a github repository to share the test with **sonofjavascript**.
