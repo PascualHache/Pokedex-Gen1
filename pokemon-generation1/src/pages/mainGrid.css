@@ -1,5 +1,5 @@
 .pokemonsGrid {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     /* flex-grow: row wrap; */
@@ -11,6 +11,11 @@
 .logoImg {
     width: 300px;
     height: auto;
+    margin-top: -10px;
+}
+
+.redLogo {
+    padding-top: 3em;
 }
 
 h2,
@@ -20,5 +25,10 @@ h3 {
 
 .input {
     padding: 0.3em;
-    margin: 1em;
+    margin: 2em;
+}
+
+.loadingIndicator {
+    font-size: xx-large;
+    font-weight: 800;
 }
