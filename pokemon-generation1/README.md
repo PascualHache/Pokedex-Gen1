@@ -72,7 +72,8 @@ You can watch/download the video showing how the app finally should work: <a hre
 
 
 
-## ðŸ§? We want to see ðŸ§?
+## We want to see 
+
 - React knowledge
 
 - Project architecture
@@ -85,7 +86,7 @@ You can watch/download the video showing how the app finally should work: <a hre
 
 
 
-## âœ… You should âœ…
+## You should ...
 
 - Use the **axios** package for http requests.
 
@@ -93,7 +94,7 @@ You can watch/download the video showing how the app finally should work: <a hre
 
 
 
-## ðŸš« You should not ðŸš«
+## You should not 
 
 - Use Typescript.
 
