@@ -72,7 +72,7 @@ You can watch/download the video showing how the app finally should work: <a hre
 
 
 
-## �? We want to see �?
+## We want to see 
 - React knowledge
 
 - Project architecture
@@ -85,15 +85,14 @@ You can watch/download the video showing how the app finally should work: <a hre
 
 
 
-## ✅ You should ✅
-
+## You should 
 - Use the **axios** package for http requests.
 
 - **Prevent unknown urls** while redirecting to the list page.
 
 
 
-## 🚫 You should not 🚫
+## You should not
 
 - Use Typescript.
 
@@ -101,8 +100,7 @@ You can watch/download the video showing how the app finally should work: <a hre
 
 
 
-## 🌟 Bonus 🌟
-
+## Bonus 
 - Add a filter to search pookemon by name
 
 - Don't use the **create-react-app** npm package to create the project.
